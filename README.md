@@ -12,4 +12,13 @@
 - Used Pinecone to store the vector db.
 - Python to create embeddings using openai.
 
-
+## Important
+I updated the code with gemini API and its working fine. Make the vector dimentsions as 768 and models  
+```
+result = genai.embed_content(
+        model="models/text-embedding-004",
+        content=review['review'],
+        task_type="retrieval_document",
+        title="Embedding of single string")
+    embeddings = result['embedding']
+```
