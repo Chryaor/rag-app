@@ -22,3 +22,5 @@ result = genai.embed_content(
         title="Embedding of single string")
     embeddings = result['embedding']
 ```
+## Comments
+![1000067711](https://github.com/user-attachments/assets/97e18c06-85c2-4594-b78c-4bf9c278b92d)
